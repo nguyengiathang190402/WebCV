@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ActionSkillComponent } from './view/admin/action-skill/action-skill.component';
 import { HomeAdminPageComponent } from './view/admin/home-admin-page/home-admin-page.component';
+import { SkillPageComponent } from './view/admin/skill/skill.component';
 import { HomePageComponent } from './view/client/home-page/home-page.component';
 
 const routes: Routes = [
@@ -26,6 +28,18 @@ const routes: Routes = [
       {
         path: 'home-admin',
         component: HomeAdminPageComponent
+      },
+      {
+        path: 'skill',
+        component: SkillPageComponent
+      },
+      {
+        path: 'skill/create',
+        component: ActionSkillComponent
+      },
+      {
+        path: 'skill/:id/edit',
+        component: ActionSkillComponent
       },
     ]
   }

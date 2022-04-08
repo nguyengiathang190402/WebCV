@@ -1,96 +1,99 @@
 {
-    "users": [
-        {
-          "id": 1,
-          "name": "Nguyen Gia Thang",
-          "profile__work": "backend developer",
-          "age": 20,
-          "birthday": "19/074/2002",
-          "phone": "0338524044",
-          "email": "nguyengiathang752002@gmail.com",
-          "address": "Ha Noi, Viet Nam",
-          "image": "https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/272322741_1581537328880861_8395814242686105871_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=OJECv6usHFgAX-m4B5y&_nc_ht=scontent.fhan2-3.fna&oh=00_AT-oVB3tmCQIlCmY4mTfYClJswGOKAXSuMrBgZs-WQ_vpQ&oe=625432FC",
-          "git": "https://github.com/nguyengiathang190402",
-          "facebook": "https://www.facebook.com/profile.php?id=100010738272902",
-          "desc": "Đẹp trai, hát hay, nhà có g63",
-          "resume": "abcascsac"
-        }
-    ],
-    "skills": [
-        {
-            "id": 1,
-            "name_skill": "HTML",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png",
-            "point": 80
-        },
-        {
-            "id": 2,
-            "name_skill": "CSS",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png",
-            "point": 70
-        },
-        {
-            "id": 3,
-            "name_skill": "PHP",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png",
-            "point": 60
-        },
-        {
-            "id": 4,
-            "name_skill": "BOOTSTRAP",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png",
-            "point": 50
-        }
-    ],
-    "projects": [
-        {
-            "id": 1,
-            "name": "Dự án website thời trang",
-            "image": "https://photo-zmp3.zmdcdn.me/banner/a/3/0/b/a30b4f6c23bbffbf47c5c4a7213023f5.jpg",
-            "create_at": "07/12/2021",
-            "complete_at": "25/12/2021",
-            "desc": "abcxyz"
-        },
-        {
-            "id": 2,
-            "name": "Dự án website thời trang",
-            "image": "https://photo-zmp3.zmdcdn.me/banner/a/3/0/b/a30b4f6c23bbffbf47c5c4a7213023f5.jpg",
-            "create_at": "07/12/2021",
-            "complete_at": "25/12/2021",
-            "desc": "abcxyz"
-        }
-    ],
-    "schools": [
-        {
-            "id": 1,
-            "name": "THPT Chương Mỹ B",
-            "start_at": "07/12/2021",
-            "complete_at": "25/12/2021",
-            "achievement": "abcxyz"
-        },
-        {
-            "id": 2,
-            "name": "THPT Chương Mỹ B",
-            "start_at": "07/12/2021",
-            "complete_at": "25/12/2021",
-            "achievement": "abcxyz"
-            
-        },
-        {
-            "id": 3,
-            "name": "THPT Chương Mỹ B",
-            "start_at": "07/12/2021",
-            "complete_at": "25/12/2021",
-            "achievement": "abcxyz"
-            
-        },
-        {
-            "id": 4,
-            "name": "THPT Chương Mỹ B",
-            "start_at": "07/12/2021",
-            "complete_at": "25/12/2021",
-            "achievement": "abcxyz"
-            
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyen Gia Thang",
+      "profile__work": "backend developer",
+      "age": 20,
+      "birthday": "19/074/2002",
+      "phone": "0338524044",
+      "email": "nguyengiathang752002@gmail.com",
+      "address": "Ha Noi, Viet Nam",
+      "image": "https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/272322741_1581537328880861_8395814242686105871_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=OJECv6usHFgAX-m4B5y&_nc_ht=scontent.fhan2-3.fna&oh=00_AT-oVB3tmCQIlCmY4mTfYClJswGOKAXSuMrBgZs-WQ_vpQ&oe=625432FC",
+      "git": "https://github.com/nguyengiathang190402",
+      "facebook": "https://www.facebook.com/profile.php?id=100010738272902",
+      "desc": "Đẹp trai, hát hay, nhà có g63",
+      "resume": "abcascsac"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name_skill": "HTML",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png",
+      "point": 80
+    },
+    {
+      "id": 2,
+      "name_skill": "CSS",
+      "image": "https://banner2.cleanpng.com/20180402/csq/kisspng-css3-cascading-style-sheets-computer-icons-html-emblem-5ac245f0d27847.8044648115226813288621.jpg",
+      "point": 70
+    },
+    {
+      "id": 3,
+      "name_skill": "PHP",
+      "image": "https://banner2.cleanpng.com/20180723/yh/kisspng-logo-php-computer-icons-postgresql-logo-5b559bb38d3097.2908767015323370755783.jpg",
+      "point": 60
+    },
+    {
+      "id": 4,
+      "name_skill": "BOOTSTRAP",
+      "image": "https://toppng.com/uploads/preview/bootstrap-featured-image-bootstrap-3-logo-11563293130teouf93qpu.png",
+      "point": 50
+    },
+    {
+      "name_skill": "Photoshop",
+      "image": "https://camerabox.vn/uploads/news/2020_06/logo-transition.gif",
+      "point": 90,
+      "id": 5
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Dự án website thời trang",
+      "image": "https://photo-zmp3.zmdcdn.me/banner/a/3/0/b/a30b4f6c23bbffbf47c5c4a7213023f5.jpg",
+      "create_at": "07/12/2021",
+      "complete_at": "25/12/2021",
+      "desc": "abcxyz"
+    },
+    {
+      "id": 2,
+      "name": "Dự án website thời trang",
+      "image": "https://photo-zmp3.zmdcdn.me/banner/a/3/0/b/a30b4f6c23bbffbf47c5c4a7213023f5.jpg",
+      "create_at": "07/12/2021",
+      "complete_at": "25/12/2021",
+      "desc": "abcxyz"
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "name": "THPT Chương Mỹ B",
+      "start_at": "07/12/2021",
+      "complete_at": "25/12/2021",
+      "achievement": "abcxyz"
+    },
+    {
+      "id": 2,
+      "name": "THPT Chương Mỹ B",
+      "start_at": "07/12/2021",
+      "complete_at": "25/12/2021",
+      "achievement": "abcxyz"
+    },
+    {
+      "id": 3,
+      "name": "THPT Chương Mỹ B",
+      "start_at": "07/12/2021",
+      "complete_at": "25/12/2021",
+      "achievement": "abcxyz"
+    },
+    {
+      "id": 4,
+      "name": "THPT Chương Mỹ B",
+      "start_at": "07/12/2021",
+      "complete_at": "25/12/2021",
+      "achievement": "abcxyz"
+    }
+  ]
 }

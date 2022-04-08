@@ -9,12 +9,21 @@ import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { HomeAdminPageComponent } from './view/admin/home-admin-page/home-admin-page.component';
 import { HomePageComponent } from './view/client/home-page/home-page.component';
+import { SkillPageComponent } from './view/admin/skill/skill.component';
+import { ActionSkillComponent } from './view/admin/action-skill/action-skill.component';
+import { ShowValidateComponent } from './show-validate/show-validate.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     HomeAdminPageComponent,
+    SkillPageComponent,
+    ActionSkillComponent,
+    ShowValidateComponent,
+
   ],
   imports: [
     BrowserModule,
