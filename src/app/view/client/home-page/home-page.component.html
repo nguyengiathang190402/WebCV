@@ -34,6 +34,7 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="/admin">admin</a></li>
               </ul>
             </div>
           </div>
@@ -302,24 +303,24 @@
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-    <div class="card">
+    <div class="h4 text-center mb-4 title" >Work Experience</div>
+    <div class="card" *ngFor="let pj of project">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>March 2016 - Present</p>
-            <div class="h5">CreativeM</div>
+            <p>{{pj.create_at}} - {{pj.complete_at}}</p>
+            <img class="" src="{{pj.image}}" alt="project-img">
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Front End Developer</div>
-            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+            <div class="h5">{{pj.name}}</div>
+            <p>{{pj.desc}}</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="card">
+    <!-- <div class="card" >
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
@@ -334,8 +335,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="card">
+    </div> -->
+    <!-- <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
@@ -350,7 +351,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 <div class="section">
