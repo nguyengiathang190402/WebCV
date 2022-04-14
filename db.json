@@ -1,11 +1,10 @@
 {
   "users": [
     {
-      "id": 1,
       "name": "Nguyen Gia Thang",
       "profile__work": "backend developer",
       "age": 20,
-      "birthday": "19/074/2002",
+      "birthday": "19/04/2002",
       "phone": "0338524044",
       "email": "nguyengiathang752002@gmail.com",
       "address": "Ha Noi, Viet Nam",
@@ -13,15 +12,16 @@
       "git": "https://github.com/nguyengiathang190402",
       "facebook": "https://www.facebook.com/profile.php?id=100010738272902",
       "desc": "Đẹp trai, hát hay, nhà có g63",
-      "resume": "abcascsac"
+      "resume": "abcascsac",
+      "id": 1
     }
   ],
   "skills": [
     {
-      "id": 1,
       "name_skill": "HTML",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png",
-      "point": 80
+      "point": 80,
+      "id": 1
     },
     {
       "id": 2,
@@ -50,12 +50,12 @@
   ],
   "projects": [
     {
-      "id": 1,
       "name": "Dự án website thời trang",
       "image": "https://1.bp.blogspot.com/-hN0NCoAmEDY/X8z1OcRjXmI/AAAAAAAAlc0/hHqbHzqOPhIABiVomzpYacPeEufV816QQCNcBGAsYHQ/w350-h265-p-k-no-nu/hinh-nen-may-cuc-dep.jpg",
-      "create_at": "07/12/2021",
-      "complete_at": "25/12/2021",
-      "desc": "abcxyz"
+      "create_at": "2022-04-13",
+      "complete_at": "2022-04-23",
+      "desc": "abccccccccccc",
+      "id": 1
     },
     {
       "id": 2,

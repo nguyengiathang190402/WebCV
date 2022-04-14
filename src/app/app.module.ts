@@ -12,6 +12,14 @@ import { HomePageComponent } from './view/client/home-page/home-page.component';
 import { SkillPageComponent } from './view/admin/skill/skill.component';
 import { ActionSkillComponent } from './view/admin/action-skill/action-skill.component';
 import { ShowValidateComponent } from './show-validate/show-validate.component';
+import { UserPageComponent } from './view/admin/user-page/user-page.component';
+import { UpdateUserPageComponent } from './view/admin/update-user-page/update-user-page.component';
+import { ProjectPageComponent } from './view/admin/project-page/project-page.component';
+import { ProjectAddPageComponent } from './view/admin/project-add-page/project-add-page.component';
+import { SchoolPageComponent } from './view/admin/school-page/school-page.component';
+import { SchoolAddPageComponent } from './view/admin/school-add-page/school-add-page.component';
+import { AdminPageComponent } from './view/admin/admin-page/admin-page.component';
+
 
 
 
@@ -23,6 +31,14 @@ import { ShowValidateComponent } from './show-validate/show-validate.component';
     SkillPageComponent,
     ActionSkillComponent,
     ShowValidateComponent,
+    UserPageComponent,
+    UpdateUserPageComponent,
+    ProjectPageComponent,
+    ProjectAddPageComponent,
+    SchoolPageComponent,
+    SchoolAddPageComponent,
+    AdminPageComponent,
+
 
   ],
   imports: [
